@@ -1,0 +1,222 @@
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.car-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    background-color: #fffbfb;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.car-image {
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.car-info {
+    flex: 1;
+    font-size: 18px;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.car-info h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.car-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.car-info span {
+    font-weight: bold;
+}
+
+.car-description {
+    margin-top: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #080808;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contact-form h3 {
+    margin-top: 0;
+    color: #e9e2e2;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.related-cars {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.related-cars h2 {
+    flex-basis: 100%;
+    text-align: center;
+    color: #181515;
+    margin-bottom: 20px;
+}
+
+.related-car {
+    flex-basis: 400px;
+    background-color: #eae6ec;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.related-car:hover {
+    transform: translateY(-5px);
+}
+
+.related-car-image {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.related-car-info {
+    padding: 20px;
+}
+
+.related-car-info h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.related-car-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.features {
+    margin-top: 30px;
+    background-color: #082032;
+}
+
+.features h2 {
+    text-align: center;
+    color: #ef0b0bae;
+    margin-bottom: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #0a0909;
+}
+
+.feature-icon {
+    flex-basis: 30px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.feature-text {
+    color: #860808;
+}
+
+.additional-features {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-features h2 {
+    flex-basis: 100%;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.additional-feature {
+    flex-basis: 300px;
+    background-color: #201d1d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.additional-feature:hover {
+    transform: translateY(-5px);
+}
+
+.additional-feature-image {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.additional-feature-info {
+    padding: 20px;
+}
+
+.additional-feature-info h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.additional-feature-info p {
+    margin: 5px 0;
+    color: #555;
+}
